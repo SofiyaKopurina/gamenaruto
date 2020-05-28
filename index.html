@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.sasuke{
+			background-image: url(K2.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.tsunade{
+			background-image: url(K1.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.itachi{
+			background-image: url(K3.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.naruto{
+			background-image: url(K4.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.gaara{
+			background-image: url(K5.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.deidara{
+			background-image: url(K6.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.hinata{
+			background-image: url(K7.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.kushina{
+			background-image: url(K8.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s; 
+		}
+		.zetsu{
+			background-image: url(K9.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.sakura{
+			background-image: url(K10.jpeg);
+			background-size: 100% 100%;
+			width: 160px;
+			height: 210px;
+			transition: 1s;  
+		}
+		.menu{
+			background-image: url(menu.jpeg);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			transition: 1s;  
+		}
+		.L1{
+			background-image: url(L1.jpeg);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			display: none; 
+		}
+		.L2{
+			background-image: url(L2.jpeg);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			display: none;
+			transition: 1s;  
+		}
+		.L3{
+			background-image: url(L3.png);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			display: none;  
+		}
+		.L4{
+			background-image: url(L4.png);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			display: none;  
+		}
+		.L5{
+			background-image: url(L5.png);
+			background-size: 100% 100%;
+			width: 1620px;
+			height: 780px;
+			display: none;  
+		}	
+	</style>
+</head>
+<body>
+<div class="menu">
+	<img src="naruto.png" style="width: 300px; height: 130px;">
+	<div style="width: 200px; height: 330px; margin-left: 10px; margin-top: 20px; background-image: url(f.jpeg);background-size: 100% 100%;" class="rounded-pill border border-white">
+		<h4 class="font-weight-bold text-secondary pl-5 pt-4"> Меню:</h4>
+		<h4 class="level1 font-weight-bold text-secondary pl-3 pt-2"> 1 уровень </h4>
+		<h4 class="level2 font-weight-bold text-secondary pl-3 pt-2 " style="display: none;"> 2 уровень </h4>
+		<h4 class="level3 font-weight-bold text-dark pl-3 pt-2" style="display: none;"> 3 уровень </h4>
+	</div>
+	<div style="width: 270px; height: 130px; margin-left: 10px; margin-top: 50px;" class="border border-white bg-danger">
+		<h4 class="font-weight-bold text-dark pl-3 pt-4">Тебе нужно наити из 5-10 карт найти карту (задача) </h4>
+	</div>
+</div>
+<div class="L1">
+	<div style="width: 310px; height: 190px; padding-left: 10px; padding-top: 20px;background-image: url(f.jpeg);background-size: 100% 100%; display: none;" class="rounded-pill border border-white zadanie1">
+		<h4 class="font-weight-bold text-secondary pt-2" style="padding-left: 70px"> Задача:</h4>
+		<h4 class=" font-weight-bold text-secondary pl-3 pt-2"> Найтии гения клана Учих </h4>
+		<h4 class="font-weight-bold text-secondary pl-3 pt-1">попытки <span class="point1 font-weight-bold text-secondary pl-3 pt-2"></span></h4>
+	</div>
+	<button class="btn1 btn-danger rounded-pill" style="width: 230px; height: 100px; margin-left: 10px; margin-top: 20px;">Начать</button>
+	<div style="display: flex; left: 350px; position: absolute; top: 200px">
+		<div class="KARD1 itachi rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD1 neto naruto rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD1 neto hinata rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD1 neto zetsu rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD1 neto kushina rounded" style="margin-left:10px">
+		</div>
+	</div>
+</div>
+<div class="L2">
+	<div style="width: 300px; height: 180px; margin-left: 10px; margin-top: 20px; display: none;" class="rounded-pill border border-white zadanie2 bg-warning ">
+		<h4 class="font-weight-bold text-secondary pt-2" style="padding-left: 70px"> Задача:</h4>
+		<h4 class=" font-weight-bold text-secondary pl-3 pt-2"> Найтии  Пятого Казекаге </h4>
+		<h4 class="font-weight-bold text-secondary pl-3 pt-1">попытки <span class="point2 font-weight-bold text-secondary pl-3 pt-2"></span></h4>
+	</div>
+	<button class="btn2 rounded-pill" style="width: 230px; height: 100px; margin-left: 10px; margin-top: 20px; background-image: url(f.jpeg);background-size: 100% 100%;">Начать</button>
+	<div style="display: flex; left: 340px; position: absolute; top: 70px">
+		<div class="KARD2 zetsu neto2 rounded" style="margin-left:10px">
+		
+		</div>
+		<div class="KARD2 tsunade neto2 rounded" style="margin-left:10px">
+		
+		</div>
+		<div class="KARD2 itachi neto2 rounded" style="margin-left:10px">
+		
+		</div>
+		<div class="KARD2 kushina neto2 rounded" style="margin-left:10px">
+		
+		</div>
+		<div class="KARD2 hinata neto2 rounded" style="margin-left:10px">
+		
+		</div>
+	</div>
+	<div style="display: flex; left: 340px; position: absolute; top: 300px;">
+		<div class="KARD2 sasuke neto2 rounded" style="margin-left:10px">
+		
+		</div>
+		<div class="KARD2 naruto neto2 rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD2 gaara rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD2 deidara neto2 rounded" style="margin-left:10px">
+			
+		</div>
+		<div class="KARD2 sakura neto2 rounded" style="margin-left:10px">
+			
+		</div>
+	</div>	
+</div>
+<div class="L3">
+	<div style="width: 270px; height: 140px; margin-left: 10px; margin-top: 20px; display: none; position: absolute;" class="rounded-pill border border-white zadanie3 bg-secondary ">
+		<h4 class="font-weight-bold text-info pt-2" style="padding-left: 70px"> Задача:</h4>
+		<h4 class=" font-weight-bold text-info pl-3 pt-2"> Найтии Куноичи из 7 команды за 5 секунд</h4>
+	</div>
+	<button class="btn3 rounded-pill" style="width: 230px; height: 100px; margin-left: 10px; margin-top: 20px; background-image: url(f.jpeg);background-size: 100% 100%;position: absolute;">Начать</button>
+	<div style="display: flex;">
+		<div class="KARD3 sasuke neto3" style="left: 370px; position: absolute; top: 420px">
+			
+		</div>
+		<div class="KARD3 naruto neto3" style="left: 20px; position: absolute; top: 200px">
+				
+		</div>
+		<div class="KARD3 tsunade neto3" style="left: 920px; position: absolute;
+		top: 193px">
+				
+		</div>
+		<div class="KARD3 deidara neto3" style="left: 530px; position: absolute; top: 20px">
+				
+		</div>
+		<div class="KARD3 sakura" style="left: 1270px; position: absolute;
+		top: 310px">
+				
+		</div>
+	</div>
+<script type="text/javascript">
+	let level1 = document.querySelector('.level1');
+	let level2 = document.querySelector('.level2');
+	let level3 = document.querySelector('.level3');
+	let menu = document.querySelector('.menu');
+	let L1 = document.querySelector('.L1');
+	let L2 = document.querySelector('.L2');
+	let L3 = document.querySelector('.L3');
+	//уровень1
+	level1.onclick = function(){
+			menu.style.display = 'none';
+			L1.style.display = 'block';
+	}
+	let popitki1 = 2;
+	document.querySelector('.point1').innerHTML = popitki1;
+	let kards1 = document.querySelectorAll('.KARD1');
+	let zadanie1 = document.querySelector('.zadanie1');
+	let btn1 = document.querySelector('.btn1');
+	let itachi = document.querySelector('.itachi');
+	btn1.onclick = function(){
+		zadanie1.style.display = 'block';
+		btn1.style.display = 'none';
+		for (let i = 0; i < 5; i++) {
+			kards1[i].style.background = "black";
+		}
+		itachi.onclick = function(){
+			alert("Молодец,ты нашел его!!!")
+			itachi.style.backgroundImage ="url(K3.jpeg)";
+			itachi.style.backgroundSize = "100% 100%";
+			L1.style.display = 'none';
+			menu.style.display = 'block';
+			level2.style.display = 'block';
+		}
+		let neto =  document.querySelectorAll('.neto');
+		neto[0].onclick = function(){
+			neto[0].style.backgroundImage ="url(K4.jpeg)";
+			neto[0].style.backgroundSize = "100% 100%";
+			popitki1 = popitki1 - 1;
+			document.querySelector('.point1').innerHTML = popitki1;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L1.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto[1].onclick = function(){
+			neto[1].style.backgroundImage ="url(K7.jpeg)";
+			neto[1].style.backgroundSize = "100% 100%";
+			popitki1 = popitki1 - 1;
+			document.querySelector('.point1').innerHTML = popitki1;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L1.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto[2].onclick = function(){
+			neto[2].style.backgroundImage ="url(K9.jpeg)";
+			neto[2].style.backgroundSize = "100% 100%";
+			popitki1 = popitki1 - 1;
+			document.querySelector('.point1').innerHTML = popitki1;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L1.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto[3].onclick = function(){
+			neto[3].style.backgroundImage ="url(K8.jpeg)";
+			neto[3].style.backgroundSize = "100% 100%";
+			popitki1 = popitki1 - 1;
+			document.querySelector('.point1').innerHTML = popitki1;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L1.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+	}
+	//уровень2
+	level2.onclick = function(){	
+			menu.style.display = 'none';
+			L2.style.display = 'block';
+	}
+	let popitki2 = 3;
+	document.querySelector('.point2').innerHTML = popitki2;
+	let kards2 = document.querySelectorAll('.KARD2');
+	let zadanie2 = document.querySelector('.zadanie2');
+	let btn2 = document.querySelector('.btn2');
+	let gaara = document.querySelector('.gaara');
+	btn2.onclick = function(){
+		zadanie2.style.display = 'block';
+		btn2.style.display = 'none';
+		for (let i = 0; i < 10; i++) {
+			kards2[i].style.background = "black";
+		}
+		gaara.onclick = function(){
+			alert("Молодец,ты нашел его!!!")
+			gaara.style.backgroundImage ="url(K5.jpeg)";
+			gaara.style.backgroundSize = "100% 100%";
+			L2.style.display = 'none';
+			menu.style.display = 'block';
+			level3.style.display = 'block';
+		}
+		let neto2 =  document.querySelectorAll('.neto2');
+		neto2[0].onclick = function(){
+			neto2[0].style.backgroundImage ="url(K9.jpeg)";
+			neto2[0].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[1].onclick = function(){
+			neto2[1].style.backgroundImage ="url(K1.jpeg)";
+			neto2[1].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point1').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[2].onclick = function(){
+			neto2[2].style.backgroundImage ="url(K3.jpeg)";
+			neto2[2].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[3].onclick = function(){
+			neto2[3].style.backgroundImage ="url(K8.jpeg)";
+			neto2[3].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[4].onclick = function(){
+			neto2[4].style.backgroundImage ="url(K7.jpeg)";
+			neto2[4].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[5].onclick = function(){
+			neto2[5].style.backgroundImage ="url(K2.jpeg)";
+			neto2[5].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki1 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[6].onclick = function(){
+			neto2[6].style.backgroundImage ="url(K4.jpeg)";
+			neto2[6].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[7].onclick = function(){
+			neto2[7].style.backgroundImage ="url(K6.jpeg)";
+			neto2[7].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}
+		neto2[8].onclick = function(){
+			neto2[8].style.backgroundImage ="url(K10.jpeg)";
+			neto2[8].style.backgroundSize = "100% 100%";
+			popitki2 = popitki2 - 1;
+			document.querySelector('.point2').innerHTML = popitki2;
+			if (popitki2 == 0){
+				alert("Game over(")
+				menu.style.display = 'block';
+				L2.style.display = 'none';
+				level2.style.display = 'none';
+				level1.style.display = 'none';
+			}			
+		}	
+	}
+//3 уровень
+	level3.onclick = function(){	
+			menu.style.display = 'none';
+			L3.style.display = 'block';
+			for (let i = 0; i < 5; i++) {
+			kards3[i].style.display = "block";
+			}
+	}
+	let kards3 = document.querySelectorAll('.KARD3');
+	let zadanie3 = document.querySelector('.zadanie3');
+	let btn3 = document.querySelector('.btn3');
+	btn3.onclick = function(){
+		zadanie3.style.display = 'block';
+		btn3.style.display = 'none';
+		for (let i = 0; i < 5; i++) {
+			kards3[i].style.background = "black";
+		}
+		kards3[4].onclick = function(){
+			alert("Молодец,ты нашел ее!!!")
+			kards3[4].style.backgroundImage ="url(K10.jpeg)";
+			kards3[4].style.backgroundSize = "100% 100%";
+			L3.style.display = 'none';
+			menu.style.display = 'block';
+			level4.style.display = 'block';
+		}
+		let neto3 =  document.querySelectorAll('.neto3');
+		for (let i = 0; i < 4; i++) {
+			neto3[i].onclick = function(){
+				alert("попробуй снова!!!")
+				menu.style.display = 'block';
+				L3.style.display = 'none';			
+			}
+		}
+		let hide = function(){
+			for (let i = 0; i < 5; i++) {
+				kards3[i].style.display = 'none';
+			}
+			alert("попробуй снова!!!")
+			menu.style.display = 'block';
+			L3.style.display = 'none';				
+		}
+		setTimeout(hide, 5000);	
+	}
+
+</script>
+</body>
+</html>
